@@ -1,4 +1,5 @@
 FROM node
+WORKDIR D:/DevOps/Labo4/dummy-api
 COPY package*.json ./
 RUN npm install
 COPY . .
