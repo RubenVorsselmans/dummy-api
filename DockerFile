@@ -1,5 +1,5 @@
 FROM node
-WORKDIR D:/DevOps/Labo4/dummy-api
+WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
